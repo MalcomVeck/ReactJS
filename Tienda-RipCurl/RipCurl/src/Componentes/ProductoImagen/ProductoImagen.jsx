@@ -2,8 +2,8 @@
 
 const ProductoImagen = () => {
     return (
-        <div>
-            <img src="https://www.cristobalcolon.com/fullaccess/item32073foto130210.jpg" alt="camisaco" />
+        <div className="card-img-top">
+            <img src="https://www.cristobalcolon.com/fullaccess/item32073foto130210.jpg" alt="camisaco" height="375" />
         </div>
     )
 }

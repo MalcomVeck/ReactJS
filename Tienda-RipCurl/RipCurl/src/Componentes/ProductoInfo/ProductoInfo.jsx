@@ -2,9 +2,9 @@
 
 const ProductoInfo = () => {
     return (
-        <div>
-            <h1 className='color-h1'>Campera Camisaco Cord</h1>
-            <p>Características: Campera  Rip Curl Camisaco Cord. ∙ Regular fit. Etiquetas cuero. Bolsillo doble frontal. Bolsillos laterales. Botones marmolados. Etiquetas premium tejidas. 100% poliéster.</p>
+        <div className="card-body text-center">
+            <h4>Campera Camisaco Cord</h4>
+            <h5 className="text-danger">$90000,00 ARS</h5>
         </div>
     )
 }
