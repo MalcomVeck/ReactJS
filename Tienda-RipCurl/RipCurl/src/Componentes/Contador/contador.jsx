@@ -23,7 +23,7 @@ export const Contador = ({inicial, stock, funcionAgregar}) => {
             <strong>{contador}</strong>
             <button className="rounded-circle" onClick={sumarContador}> + </button>
         </div>
-        <button className="fs-5 mt-3 btn btn-dark btn-lg rounded-pill" onClick={()=>funcionAgregar(contador)}>AGREGAR AL CARRO</button>
+        <button className="fs-5 mt-3 btn btn-dark btn-lg rounded-2" onClick={()=>funcionAgregar(contador)}>AGREGAR AL BOLSO</button>
     </>
   )
 }

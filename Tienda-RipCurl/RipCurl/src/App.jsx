@@ -7,22 +7,28 @@ import ItemListContainer from './Componentes/ItemListContainer/ItemListContainer
 import Footer from './Componentes/Footer/Footer'
 import ItemDetailContainer from './Componentes/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Routes, Route  } from 'react-router-dom'
+import { CarritoProvider } from './Context/CarritoContext'
+import Cart from './Componentes/Cart/Cart'
 
 function App() {
 
   return (
     <>
     <BrowserRouter>
+    <CarritoProvider>
       <NavBar/>
       <Routes>
-      <Route path='/' element={<ItemListContainer/>}/>
-      <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
-      <Route path='/detalle/:idProducto' element={<ItemDetailContainer/>}/>
+        <Route path='/' element={<ItemListContainer/>}/>
+        <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
+        <Route path='/detalle/:idProducto' element={<ItemDetailContainer/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='*' element={<h2> Sitio en construccion</h2>}/>
       </Routes>
-      </BrowserRouter>
-      <Footer/>
+    </CarritoProvider>
+    </BrowserRouter>
+    <Footer/>
     </>
-  )
-}
+  );
+};
 
 export default App
