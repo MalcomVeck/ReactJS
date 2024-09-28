@@ -23,7 +23,7 @@ const Cart = () => {
                     <td><h4 className="ps-5 text-start align-middle" colSpan="2">BOLSO DE COMPRAS</h4></td>
                     <td><h5 className="ps-5 align-middle" colSpan="3">Cantidad:</h5></td>
                     <td><h5 className="text-center align-middle" colSpan="4">Precio Unidad:</h5></td>
-                    <td className="text-end align-middle" colSpan="6"><button className='btn-md rounded-0' onClick={()=> vaciarCarrito()}>LIMPIAR</button></td>
+                    <td className="text-end align-middle" colSpan="6"><button className='btn-md border-dark rounded-0' onClick={()=> vaciarCarrito()}>LIMPIAR</button></td>
                   </tr>
                 </thead>
                 <tbody>

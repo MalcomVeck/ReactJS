@@ -1,4 +1,5 @@
 import { useState, createContext } from "react";
+import Swal from "sweetalert2";
 
 export const CarritoContext = createContext({
     carrito : [],
@@ -42,6 +43,13 @@ export const CarritoProvider = ({children}) => {
         (prev) =>
             prev - productoEliminado.item.precio * productoEliminado.cantidad
         );
+        Swal.fire({
+            position: "top-center",
+            icon: "success",
+            title: "Producto Eliminado",
+            showConfirmButton: false,
+            timer: 1500
+        });
     };
 
     const vaciarCarrito = () => {

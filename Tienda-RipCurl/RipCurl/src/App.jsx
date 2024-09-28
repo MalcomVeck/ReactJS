@@ -9,6 +9,7 @@ import ItemDetailContainer from './Componentes/ItemDetailContainer/ItemDetailCon
 import { BrowserRouter, Routes, Route  } from 'react-router-dom'
 import { CarritoProvider } from './Context/CarritoContext'
 import Cart from './Componentes/Cart/Cart'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 

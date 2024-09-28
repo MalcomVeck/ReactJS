@@ -18,10 +18,10 @@ const NavBar = () => {
                                     <NavLink to="/" className="nav-link active text-dark fs-5" aria-current="page"><b>TODOS</b></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="categoria/remeras" className="nav-link active text-dark fs-5"><b>REMERAS</b></NavLink>
+                                    <NavLink to="categoria/camisas" className="nav-link text-dark fs-5"><b>CAMISAS</b></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to="categoria/camisas" className="nav-link text-dark fs-5"><b>CAMISAS</b></NavLink>
+                                    <NavLink to="categoria/remeras" className="nav-link active text-dark fs-5"><b>REMERAS</b></NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink to="categoria/shorts" className="nav-link text-dark fs-5"><b>SHORTS</b></NavLink>
