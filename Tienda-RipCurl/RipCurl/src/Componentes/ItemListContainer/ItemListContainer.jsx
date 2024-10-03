@@ -1,36 +1,40 @@
 import { useState, useEffect } from "react";
-import { getProductos, getProductosPorCategorias } from "../../asynmock";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import Loader from "../Loader/Loader";
+import { db } from "../../Services/Config";
+import {collection, getDocs, query, where } from "firebase/firestore"
 
 const ItemListContainer = () => {
 
-    const [productos, setProductos] = useState([]);
+    const [Inventario, setProductos] = useState([]);
     const [loading, setLoading] = useState(false)
 
     const {idCategoria} = useParams()
 
-    useEffect(() => {
+    useEffect(()=> {
         setLoading(true)
-        const funcionProductos = idCategoria ? getProductosPorCategorias : getProductos;
+        const misProductos = idCategoria ? query(collection(db, "Inventario"), where("categoria", "==", idCategoria)) : (collection(db,"Inventario"))
 
-        funcionProductos(idCategoria)
-        .then(res => setProductos(res))
-        .catch((error) => {
-            console.log(error)
+        getDocs(misProductos)
+        .then (res => {
+            const nuevosProductos = res.docs.map(doc =>{
+                const data = doc.data()
+                return {id:doc.id , ...data}
+            })
+            setProductos(nuevosProductos)
         })
-        .finally(() => {
-            console.log("Proceso Finalizado")
+        .catch(error => console.log(error))
+        .finally(()=>{
+            console.log("finalized process")
             setLoading(false)
         })
-    
     }, [idCategoria])
 
     return (
         <div className="container my-5">
             <div className="row">
-                {loading ? <Loader/> : <ItemList productos={productos} /> }
+                {loading ? <Loader/> : <ItemList productos={Inventario}/> }
             </div>
         </div>
     )
