@@ -3,7 +3,7 @@ import Spinner from 'react-bootstrap/Spinner';
 const Loader = () => {
   return (
     <div>
-        <Spinner className='position-absolute top-50 start-50'  animation="border" size='xxl' variant='dark'/>
+        <Spinner className='position-relative top-50 start-50 mb-5'  animation="border" size='xxl' variant='dark'/>
     </div>
   )
 }

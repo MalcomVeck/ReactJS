@@ -48,7 +48,7 @@ export const CarritoProvider = ({children}) => {
             icon: "success",
             title: "Producto Eliminado",
             showConfirmButton: false,
-            timer: 1500
+            timer: 1000
         });
     };
 

@@ -1,12 +1,9 @@
 
 const Footer = () => {
     return (
-        <div className="container my-5">
-            <div className="row">
-                <div className="col">
-                    <p className="text-center"><b>Copyright © 2024 - RIPCURL ARGENTINA BY MALCOM VECK</b></p>
-                </div>
-            </div>
+        <div>
+            <img className="img-fluid" src="https://www.ripcurlargentina.com/fullaccess/banner95.jpg"/>
+            <p className="text-white text-center bg-dark fs-6 p-2"><b>Copyright © 2024 - RIPCURL ARGENTINA BY MALCOM VECK - LIVE THE SEARCH </b></p>
         </div>
     )
 }

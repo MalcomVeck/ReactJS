@@ -4,12 +4,13 @@ import { Link, NavLink } from "react-router-dom"
 const NavBar = () => {
     return (
         <header>
-            <div className="container-fluid my-2">
-                <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
+            <p className="text-white text-center bg-dark fs-6 p-1"><b> ★ TIENDA INSPIRADA EN RIPCURL ARGENTINA ★ REALIZADA POR MALCOM VECK PARA CODERHOUSE ★ SURF OR DIE BOY ★ </b></p>
+            <div className="container-fluid">
+                <div className="p-2 bg-tertiary shadow">
                     <div className="row">
                         <div className="col">
                             <Link to="/">
-                                <img src="../../../public/rip-curl-logo.png" alt="RipCurlLogo" width="220" height="30" className="ms-5"/>
+                                <img src="../../../public/rip-curl-logo.png" alt="RipCurlLogo" width="220" height="30" className="ms-5 mt-2"/>
                             </Link>
                         </div>
                         <div className="col d-flex align-items-center">

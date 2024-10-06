@@ -18,11 +18,11 @@ const ItemDetail = ({id, nombre, precio, imagen, descripción, stock}) => {
     const item = {id, nombre, precio}
       agregarAlCarrito (item, cantidad)
       Swal.fire({
-        position: "top-center",
+        position: "top-end",
         icon: "success",
         title: "Producto Agregado",
         showConfirmButton: false,
-        timer: 1500
+        timer: 1000
       });
   }
 
@@ -31,7 +31,7 @@ const ItemDetail = ({id, nombre, precio, imagen, descripción, stock}) => {
       <div className="card border-light bg-light shadow p-2 w-100">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={imagen} className="position p-2" height="600" alt={nombre}/>
+            <img src={imagen} className="p-2" height="600" alt={nombre}/>
           </div>
           <div className="col-md-8 text-center">
             <div className="card-body">

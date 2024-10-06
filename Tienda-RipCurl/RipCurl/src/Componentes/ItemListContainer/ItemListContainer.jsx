@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import Loader from "../Loader/Loader";
-import { db } from "../../Services/Config";
+import { db }   from "../../Services/Config";
 import {collection, getDocs, query, where } from "firebase/firestore"
 
 const ItemListContainer = () => {
@@ -32,11 +32,15 @@ const ItemListContainer = () => {
     }, [idCategoria])
 
     return (
-        <div className="container my-5">
-            <div className="row">
-                {loading ? <Loader/> : <ItemList productos={Inventario}/> }
+        <>
+            <img className="img-fluid mt-3" src="https://www.cristobalcolon.com/fullaccess/itemcategory160banner1.jpg"/>
+            <p className="text-uppercase text-white text-center bg-dark fs-5 p-1"><b>{idCategoria}</b></p>
+            <div className="container my-5">
+                <div className="row">
+                    {loading ? <Loader/> : <ItemList productos={Inventario}/> }
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 

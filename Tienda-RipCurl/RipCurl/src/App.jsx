@@ -10,9 +10,9 @@ import { BrowserRouter, Routes, Route  } from 'react-router-dom'
 import { CarritoProvider } from './Context/CarritoContext'
 import Cart from './Componentes/Cart/Cart'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Checkout from './Componentes/Checkout/Checkout'
 
 function App() {
-
   return (
     <>
     <BrowserRouter>
@@ -23,6 +23,7 @@ function App() {
         <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
         <Route path='/detalle/:idProducto' element={<ItemDetailContainer/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
         <Route path='*' element={<h2> Sitio en construccion</h2>}/>
       </Routes>
     </CarritoProvider>
