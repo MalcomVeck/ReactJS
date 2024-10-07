@@ -1,6 +1,6 @@
 # Demo
 
-Puedes ver la demo aquí: 
+  Puedes ver la demo aquí: 
 
 # Descripción
 
@@ -9,12 +9,12 @@ Puedes ver la demo aquí:
 
 # Técnologias & Dependencias
 
-• Node.js
-• React.js
-• Firebase
-• Bootstrap
-• Sweetalert2
-• @mui/material
+• Node.js  
+• React.js  
+• Firebase  
+• Bootstrap  
+• Sweetalert2  
+• @mui/material  
 
 # Instalación & Uso
 
