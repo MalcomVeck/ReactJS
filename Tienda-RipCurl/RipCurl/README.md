@@ -16,7 +16,7 @@
 • Sweetalert2  
 • @mui/material
 
-# Dependencias Justificadas
+## Dependencias Justificadas
 
 • React-router-dom: Utilizado para la navegabilidad en el proyecto.    
 
