@@ -20,7 +20,7 @@
 
 # Prerequisitos:
 
-• Visual Studio Code o similar
+• Visual Studio Code o similar  
 • NodeJS
 
 # Instalación
