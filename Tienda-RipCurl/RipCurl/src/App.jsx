@@ -11,6 +11,7 @@ import { CarritoProvider } from './Context/CarritoContext'
 import Cart from './Componentes/Cart/Cart'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Checkout from './Componentes/Checkout/Checkout'
+import Error404  from './Componentes/Error404/Error404'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route path='/detalle/:idProducto' element={<ItemDetailContainer/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
-        <Route path='*' element={<h2> Sitio en construccion</h2>}/>
+        <Route path='*' element={<Error404/>}/>
       </Routes>
     </CarritoProvider>
     </BrowserRouter>

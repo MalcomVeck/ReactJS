@@ -9,7 +9,7 @@ const CartItem = ({item, cantidad}) => {
         <th className="ps-5 align-middle"><h4>{item.nombre}</h4></th>
         <th className="text-center align-middle"><h5>{cantidad}</h5></th>
         <th className="text-center align-middle"><h5>${item.precio} ARS</h5></th>
-        <th className="text-end align-middle"><button className="border-dark btn sm rounded-0" onClick={()=>eliminarProducto(item.id)}>X</button></th>
+        <th className="text-end align-middle"><button className="border-dark btn sm rounded-2" onClick={()=>eliminarProducto(item.id)}>X</button></th>
       </tr>
     )
 }

@@ -15,17 +15,17 @@ const Cart = () => {
         )
     } 
     return (
-        <div className='container my-5 shadow'>
+        <div className='container my-5 rounded-4 shadow'>
             <table className='table pt-5'>
                 <thead>
                   <tr>
-                    <td><h4 className="ps-5 pt-2 text-start align-middle" colSpan="2">BOLSO DE COMPRAS</h4></td>
+                    <td><h4 className="ps-4 pt-2 mt-3 text-start align-middle" colSpan="4">BOLSO DE COMPRAS</h4></td>
                   </tr>
                   <tr>
-                    <td><h5 className="ps-5 text-start align-middle" colSpan="2">Producto:</h5></td>
-                    <td><h5 className="ps-5 align-middle" colSpan="3">Cantidad:</h5></td>
-                    <td><h5 className="text-center align-middle" colSpan="4">Precio Unidad:</h5></td>
-                    <td className="text-end align-middle" colSpan="6"><button className='btn-md border-dark rounded-0' onClick={()=> vaciarCarrito()}>LIMPIAR</button></td>
+                    <td><h5 className="ms-5 text-start align-middle" colSpan="2">Producto</h5></td>
+                    <td><h5 className="ps-5 align-middle" colSpan="3">Cantidad</h5></td>
+                    <td><h5 className="text-center align-middle" colSpan="4">Precio U.</h5></td>
+                    <td className="text-end align-middle" colSpan="6"><button className='btn-md border-dark rounded-2' onClick={()=> vaciarCarrito()}>VACIAR BOLSO</button></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -35,7 +35,7 @@ const Cart = () => {
                   <tr>
                     <td className="text-end align-middle" colSpan="2"><h4>Cantidad Total: {cantidadTotal}</h4></td>
                     <td className="text-center align-middle"><h4>Valor Total: ${total} ARS</h4></td>
-                    <td className="text-end align-middle"><Link to="/checkout" className="btn btn-dark btn-lg rounded-0">CHECKOUT</Link></td>
+                    <td className="text-end align-middle"><Link to="/checkout" className="btn btn-dark btn-lg rounded-2 mb-2 mt-2">CHECKOUT</Link></td>
                   </tr>
                 </tfoot>
             </table>

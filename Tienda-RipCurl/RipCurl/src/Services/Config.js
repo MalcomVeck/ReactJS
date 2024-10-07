@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCZuqTS6o8ooWunKCEkv68UUqjjRN8RB7k",
-  authDomain: "rip-curl-store.firebaseapp.com",
-  projectId: "rip-curl-store",
-  storageBucket: "rip-curl-store.appspot.com",
-  messagingSenderId: "598397817595",
-  appId: "1:598397817595:web:3d44cef8993ec30409165e"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 const app = initializeApp(firebaseConfig);
