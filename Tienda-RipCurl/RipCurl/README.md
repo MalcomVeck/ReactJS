@@ -18,13 +18,13 @@
 
 # Dependencias Justificadas
 
-• React-router-dom: Utilizado para la navegabilidad en el proyecto.
-• React-spinner: Se utilizó para añadir indicadores de carga y animaciones, para mejorar la experiencia del usuario durante las operaciones asincrónicas.
-• Firebase: Se utilizó para gestionar la base de datos en donde almacené los datos de mis productos y los pedidos realizados por los clientes.    
-• Bootstrap: Mi querido bootstrap, me permitió, con poco cógido y solo un archivo CSS, lograr un proyecto que denota simplicidad, trabajando con las luces y sombras de sus componentes y manteniendo el foco en el producto a promocionar. 
-• Sweetalert2: Esta biblioteca me facilitó la creación de modales y alertas personalizadas para mejorar la UX de mi proyecto.
-• @mui/material: Utilicé esta biblioteca para brindarle estilos predefinidos basados en el diseño y las pautas de diseño de Material Design a mi sitio.
-
+• React-router-dom: Utilizado para la navegabilidad en el proyecto.    
+• React-spinner: Se utilizó para añadir indicadores de carga y animaciones, para mejorar la experiencia del usuario durante las operaciones asincrónicas.    
+• Firebase: Se utilizó para gestionar la base de datos en donde almacené los datos de mis productos y los pedidos realizados por los clientes.        
+• Bootstrap: Mi querido bootstrap, me permitió, con poco cógido y solo un archivo CSS, lograr un proyecto que denota simplicidad, trabajando con las luces y sombras de sus componentes y manteniendo el foco en el producto a promocionar.     
+• Sweetalert2: Esta biblioteca me facilitó la creación de modales y alertas personalizadas para mejorar la UX de mi proyecto.    
+• @mui/material: Utilicé esta biblioteca para brindarle estilos predefinidos basados en el diseño y las pautas de diseño de Material Design a mi sitio.    
+      
 # Instalación & Uso
 
 # Prerequisitos:
