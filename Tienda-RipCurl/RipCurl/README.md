@@ -7,7 +7,7 @@
   Desarrollo de tienda online con carrito de compras, que incluye funciones de filtrado por categoría, gestión de productos y orden de compra almacenada en nube. 
   Emplea tecnologías como React.js y Firebase garantizando un rendimiento eficiente y una gestión de datos confiable.
 
-# Técnologias & Dependencias
+# Tecnologías & Dependencias
 
 • Node.js  
 • React.js  
