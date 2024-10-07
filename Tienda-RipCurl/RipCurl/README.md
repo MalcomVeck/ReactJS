@@ -37,8 +37,8 @@
 
 ## Prerequisitos
 
-    - __Visual Studio Code__ o similar  
-    - __NodeJS__
+  -__Visual Studio Code__ o similar  
+  -__NodeJS__
 
 ## Instalación
 
@@ -47,11 +47,11 @@ __Paso 1__
     
 __Paso 2__
    - Vaya a la carpeta creada y clone el repositorio:
-   
-    git clone https://github.com/MalcomVeck/ReactJS.git
-    
-     O descargue desde el sitio de Github como .zip
      
+     ´git clone https://github.com/MalcomVeck/ReactJS.git´
+
+     O descargue desde el sitio de Github como .zip
+    
      Con esto habrá creado la estructura de archivos y el contenido del Frontend de la aplicación.
     
 __Paso 3__
