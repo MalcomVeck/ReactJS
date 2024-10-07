@@ -45,7 +45,7 @@ Paso 1
 Paso 2
   • Vaya a la carpeta creada y clone el repositorio:
   
-git clone https://github.com/MalcomVeck/ReactJS.git
+> git clone https://github.com/MalcomVeck/ReactJS.git
 
 O descargue desde el sitio de Github como .zip
 
@@ -53,13 +53,13 @@ Con esto habrá creado la estructura de archivos y el contenido del Frontend de 
 
 Paso 3
   • Si quiere modificar el código y ejecutar el proyecto localmente, ingrese a su editor de Código (Visual Studio Code).
-Abra una ventana de terminal y ubíquese en la carpeta local que creó y dentro de ella en la carpeta "ReactJS/Tienda-RipCurl
+Abra una ventana de terminal y ubíquese en la carpeta local que creó y dentro de ella en la carpeta > "ReactJS/Tienda-RipCurl
 /RipCurl".
 
 Escriba npm install. Con eso habrá instalado todas las dependencias necesarias.
 
 Paso 4
-  • Ejecute npm run dev. Esto iniciará la aplicación web en http://localhost:5173/ . Puede usar esta URL para probar la aplicación localmente.
+  • Ejecute npm run dev. Esto iniciará la aplicación web en > http://localhost:5173/ . Puede usar esta URL para probar la aplicación localmente.
   
 # Créditos y Recursos Externos
 
