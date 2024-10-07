@@ -22,9 +22,9 @@
 
 • __React-spinner__: Se utilizó para añadir indicadores de carga y animaciones, para mejorar la experiencia del usuario durante las operaciones asincrónicas.    
 
-• __Firebase__: Firebase es una pieza clave para el proyecto, me permitió almacenar y gestionar los datos de mis productos y las órdenes realizadas por los clientes, brindando confianza y la seguridad que caracteriza el respaldo de Google.    
+• __Firebase__: Firebase es una pieza clave para el proyecto, me permitió almacenar y gestionar los datos de mis productos y las órdenes realizadas por los clientes, brindando   confianza y la seguridad que caracteriza el respaldo de Google.    
 
-• __Bootstrap__: Mi querido Bootstrap, me permitió, con poco cógido y solo un archivo CSS, lograr un proyecto que denota simplicidad, trabajando con las luces y sombras de sus componentes y manteniendo el foco en el producto a promocionar.    
+• __Bootstrap__: Mi querido Bootstrap, me permitió, con poco cógido y solo un archivo CSS, lograr un proyecto que denota simplicidad, trabajando con las luces y sombras de sus   componentes y manteniendo el foco en el producto a promocionar.    
 
 • __Sweetalert2__: Esta biblioteca me facilitó la creación de modales y alertas personalizadas para mejorar la UX de mi proyecto.    
 
