@@ -41,13 +41,13 @@
 
 ## Instalación
 
-__Paso 1__
-  - Crear una carpeta local para alojar el repositorio
-  
-__Paso 2__
-  - Vaya a la carpeta creada y clone el repositorio:
-  
-`git clone https://github.com/MalcomVeck/ReactJS.git`  
+-__Paso 1__
+   >> - Crear una carpeta local para alojar el repositorio
+   > 
+-__Paso 2__
+   >>- Vaya a la carpeta creada y clone el repositorio:
+   >
+   >>`git clone https://github.com/MalcomVeck/ReactJS.git`  
 
 O descargue desde el sitio de Github como .zip
 
