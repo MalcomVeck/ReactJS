@@ -46,7 +46,7 @@ Paso 2
   • Vaya a la carpeta creada y clone el repositorio:
   
 > git clone https://github.com/MalcomVeck/ReactJS.git  
->
+
 
 O descargue desde el sitio de Github como .zip
 
