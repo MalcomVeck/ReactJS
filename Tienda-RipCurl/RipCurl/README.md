@@ -9,8 +9,10 @@
 
 # Tecnologías & Dependencias
 
-- __Node.js__  
-- __React.js__  
+- __Vite__
+- __Node__  
+- __React__
+- __React-router-dom__  
 - __Firebase__  
 - __Bootstrap__  
 - __Sweetalert2__  
@@ -32,10 +34,10 @@
       
 # Instalación & Uso
 
-## Prerequisitos:
+## Prerequisitos
 
-• Visual Studio Code o similar  
-• NodeJS
+• __Visual Studio Code__ o similar  
+• __NodeJS__
 
 ## Instalación
 
