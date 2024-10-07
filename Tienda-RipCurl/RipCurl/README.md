@@ -20,25 +20,25 @@
 
 ## Dependencias Justificadas
 
-  • __React-router-dom__: Utilizado para la navegabilidad en el proyecto.    
-
-  • __React-spinner__: Se utilizó para añadir indicadores de carga y animaciones, para mejorar la experiencia del usuario durante las operaciones asincrónicas.    
-
-  • __Firebase__: Firebase es una pieza clave para el proyecto, me permitió almacenar y gestionar los datos de mis productos y las órdenes realizadas por los clientes,         
+    - __React-router-dom__: Utilizado para la navegabilidad en el proyecto.    
+    
+    - __React-spinner__: Se utilizó para añadir indicadores de carga y animaciones, para mejorar la experiencia del usuario durante las operaciones asincrónicas.    
+    
+    - __Firebase__: Firebase es una pieza clave para el proyecto, me permitió almacenar y gestionar los datos de mis productos y las órdenes realizadas por los clientes,           
                   brindando confianza y la seguridad que caracteriza el respaldo de Google.    
-
-  • __Bootstrap__: Mi querido Bootstrap, me permitió, con poco cógido y solo un archivo CSS, lograr un proyecto que denota simplicidad, trabajando con las luces y sombras de                      sus   componentes y manteniendo el foco en el producto a promocionar.    
-
-  • __Sweetalert2__: Esta biblioteca me facilitó la creación de modales y alertas personalizadas para mejorar la UX de mi proyecto.    
-
-  • __@mui/material__: Utilicé esta biblioteca para brindarle estilos al componente Checkout de mi sitio, mejorando la experiencia del Usuario. 
+    
+    - __Bootstrap__: Mi querido Bootstrap, me permitió, con poco cógido y solo un archivo CSS, lograr un proyecto que denota simplicidad, trabajando con las luces y sombras de                      sus   componentes y manteniendo el foco en el producto a promocionar.    
+    
+    - __Sweetalert2__: Esta biblioteca me facilitó la creación de modales y alertas personalizadas para mejorar la UX de mi proyecto.    
+    
+    - __@mui/material__: Utilicé esta biblioteca para brindarle estilos al componente Checkout de mi sitio, mejorando la experiencia del Usuario. 
       
 # Instalación & Uso
 
 ## Prerequisitos
 
-  • __Visual Studio Code__ o similar  
-  • __NodeJS__
+    - __Visual Studio Code__ o similar  
+    - __NodeJS__
 
 ## Instalación
 
@@ -48,7 +48,7 @@ __Paso 1__
 __Paso 2__
    - Vaya a la carpeta creada y clone el repositorio:
    
-    `git clone https://github.com/MalcomVeck/ReactJS.git`
+    git clone https://github.com/MalcomVeck/ReactJS.git
     
      O descargue desde el sitio de Github como .zip
      
