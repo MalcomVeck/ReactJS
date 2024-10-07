@@ -75,8 +75,8 @@ const Checkout = () => {
                 {ordenId ? (
                     <div className="text-center mt-4 mb-4">
                         <h1 className="mt-2 mb-3">¡Tu orden ha sido exitosa!</h1>
-                        <h4 className="mt-2 mb-2">El número de orden es: {ordenId}</h4>
                         <h4 className="mt-2 mb-2">Recibirás un mail con el detalle de tu compra.</h4>
+                        <h5 className="mt-2 mb-2">El número de orden es: {ordenId}</h5>
                         <h3 className="mt-2 mb-2">¡Gracias por elegirnos!</h3>
                         <h4 className="mt-2 mb-2">• Enjoy the Search • </h4>
                         <div>

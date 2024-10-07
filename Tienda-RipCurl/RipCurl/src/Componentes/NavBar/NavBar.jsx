@@ -6,7 +6,7 @@ const NavBar = () => {
         <header>
             <div>
             <p className="text-white text-center bg-dark fs-6 p-1"><b> ★ TIENDA INSPIRADA EN RIPCURL ARGENTINA ★ REALIZADA POR MALCOM VECK PARA EL CURSO REACTJS ★ SURF OR DIE BOY ★ </b></p>
-            <div className="container-fluid mb-2">
+            <div className="container-fluid mb-3">
                 <div className="bg-tertiary shadow p-3">
                     <div className="row">
                         <div className="col pt-2">
