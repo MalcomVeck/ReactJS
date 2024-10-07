@@ -32,12 +32,12 @@
       
 # Instalación & Uso
 
-# Prerequisitos:
+## Prerequisitos:
 
 • Visual Studio Code o similar  
 • NodeJS
 
-# Instalación
+## Instalación
 
 Paso 1
   • Crear una carpeta local para alojar el repositorio
