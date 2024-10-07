@@ -2,9 +2,10 @@
 
 Puedes ver la demo aquí: 
 
-# Descripción 
+# Descripción
 
-Desarrollo de una tienda online con carrito de compras. El proyecto incluye funciones de filtrado por categoría, gestión de productos y pedidos para administradores, y aprovecha tecnologías como React.js y Firebase para garantizar un rendimiento eficiente y una gestión de datos confiable.
+  Desarrollo de tienda online con carrito de compras, que incluye funciones de filtrado por categoría, gestión de productos, orden de compra almacenada en nube. 
+  Emplea tecnologías como React.js y Firebase garantizando un rendimiento eficiente y una gestión de datos confiable.
 
 # Técnologias & Dependencias
 
