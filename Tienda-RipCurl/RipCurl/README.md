@@ -1,8 +1,52 @@
-# React + Vite
+# Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Puedes ver la demo aquí: 
 
-Currently, two official plugins are available:
+# Descripción 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desarrollo de una tienda online con carrito de compras. El proyecto incluye funciones de filtrado por categoría, gestión de productos y pedidos para administradores, y aprovecha tecnologías como React.js y Firebase para garantizar un rendimiento eficiente y una gestión de datos confiable.
+
+# Técnologias & Dependencias
+
+• Node.js
+• React.js
+• Firebase
+• Bootstrap
+• Sweetalert2
+• @mui/material
+
+# Instalación & Uso
+
+# Prerequisitos:
+
+• Visual Studio Code o similar
+• NodeJS
+
+# Instalación
+
+Paso 1
+  • Crear una carpeta local para alojar el repositorio
+  
+Paso 2
+  • Vaya a la carpeta creada y clone el repositorio:
+  
+git clone https://github.com/MalcomVeck/ReactJS.git
+
+O descargue desde el sitio de Github como .zip
+
+Con esto habrá creado la estructura de archivos y el contenido del Frontend de la aplicación.
+
+Paso 3
+  • Si quiere modificar el código y ejecutar el proyecto localmente, ingrese a su editor de Código (Visual Studio Code).
+Abra una ventana de terminal y ubíquese en la carpeta local que creó y dentro de ella en la carpeta "ReactJS/Tienda-RipCurl
+/RipCurl".
+
+Escriba npm install. Con eso habrá instalado todas las dependencias necesarias.
+
+Paso 4
+  • Ejecute npm run dev. Esto iniciará la aplicación web en http://localhost:5173/ . Puede usar esta URL para probar la aplicación localmente.
+  
+# Créditos y Recursos Externos
+
+  • El proyecto está inspirado en la página oficial de Rip Curl Argentina. Todas las imágenes son de su autoría. Se agradece.
+
